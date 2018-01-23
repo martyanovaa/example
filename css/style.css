@@ -1,3 +1,41 @@
-* {
+body {
+	background-color: lightblue;
+	height: 1000px;
+
+}
+.first-cube {
+	width: 180px;
+	height: 150px;
+	position: relative;
+	background-color: red;
+	border: none;
+	top: 140px;
+	left: 150px;
+}
+.second-cube {
+	width: 250px;
+	height:140px;
+	position: absolute;
+	background-color: white;
+	border: none;
+	top: 260px;
+	left: 290px; 
+}
+.third-cube {
+	width: 230px;
+	height: 160px;
+	position: fixed;
+	border: none;
+	background-color: yellow;
+	top: 200px;
+	left: 450px;
+}
+.fourth-cube {
+	width: 120px;
+	height: 80px;
+	position: static;
+	border: none;
 	background-color: blue;
+	margin-top: 10px;
+	margin-left: 330px;
 }
