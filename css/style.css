@@ -6,11 +6,11 @@ body {
 .first-cube {
 	width: 180px;
 	height: 150px;
-	position: relative;
+	position: static;
 	background-color: red;
 	border: none;
-	top: 140px;
-	left: 150px;
+	margin-top: 140px;
+	margin-left: 150px;
 }
 .second-cube {
 	width: 250px;
@@ -33,7 +33,7 @@ body {
 .fourth-cube {
 	width: 120px;
 	height: 80px;
-	position: static;
+	position: relative;
 	border: none;
 	background-color: blue;
 	margin-top: 10px;
